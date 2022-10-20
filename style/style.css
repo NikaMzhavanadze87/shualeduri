@@ -15,7 +15,8 @@
       's . n n n n n n n n n .'
       's . m m m m m m m m m .'
       's . t t t t t t t t t .'
-      's . f f f f f f f f f .';
+      's . f f f f f f f f f .'
+      's . b b b b b b b b b .';
 }
 .header{
     grid-area: h;
@@ -279,6 +280,13 @@
     color: #222222;
     font-size: 16px;
 }
+.footer-last{
+    grid-area: b;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px ;
+    
+}
 
 
 @media (max-width:1024px) {
@@ -291,6 +299,7 @@
             'm'
             't'
             'f'
+            'b'
     }
     .side-menu nav{
         display: none;
