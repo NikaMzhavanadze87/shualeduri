@@ -111,9 +111,7 @@
     background-color: aliceblue;
 }
 /* ///////main content//////// */
-.box{
-    border: #222222 solid 1px;
-}
+
 .header{
     display: flex;
     justify-items: center;
